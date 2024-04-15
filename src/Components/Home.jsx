@@ -6,11 +6,11 @@ export default function Home({collegeData}) {
     return (
         <div>
             <table className=' border border-collapse m-5 p-2'>
-                {/* <caption class="caption-top">
-                    Table 3.1: Professional wrestlers and their signature moves.
-                </caption> */}
+                <caption class="caption-top">
+                    Filtered Results
+                </caption>
                 <thead>
-                    <th className='border border-slate-300 p-2 text-white font-semibold bg-headbg text-lg '>#</th>
+                    <th className='border border-slate-300 p-2 text-white font-semibold bg-headbg text-lg '>CD Rank</th>
                     <th className='border border-slate-300 p-2 text-white font-semibold bg-headbg text-lg'>Colleges</th>
                     <th className='border border-slate-300 p-2 text-white font-semibold bg-headbg text-lg'>Fees</th>
                     <th className='border border-slate-300 p-2 text-white font-semibold bg-headbg text-lg'>Placement</th>

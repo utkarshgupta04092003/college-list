@@ -3,7 +3,7 @@ import Home from './Components/Home'
 import Filters from './Components/Filters'
 import { BrowserRouter } from 'react-router-dom'
 import { collegeData } from './data/collegeData'
-import { sortByRatingAsc, sortByRatingDesc, sortByFeesAsc, sortByFeesDesc, sortByReviewAsc, sortByReviewDesc } from './data/FilterFunction';
+import { sortByRatingAsc, sortByRatingDesc, sortByFeesAsc, sortByFeesDesc, sortByReviewAsc, sortByReviewDesc, searchByName } from './data/FilterFunction';
 
 
 
@@ -11,6 +11,7 @@ export default function App() {
   const [filterData, setfilterData] = useState();
   const [sortBy, setSortBy] = useState('');
   const [sortOrder, setSortOrder] = useState('asc');
+  const [searchTerm, setSearchTerm] = useState('');
 
 
 
@@ -69,6 +70,12 @@ export default function App() {
       console.log(filters);
     }
   };
+  const handleInputChange = (search) => {
+    console.log('serach', search)
+    setSearchTerm(search);
+    const sortedData = searchByName(collegeData, search);
+    setfilterData(sortedData);
+  };
 
 
 
@@ -76,7 +83,7 @@ export default function App() {
 
   return (
     <BrowserRouter>
-      <Filters onFilterChange={handleFilterChange} />
+      <Filters onFilterChange={handleFilterChange} handleInputChange={handleInputChange}/>
 
       <Home collegeData={filterData} />
     </BrowserRouter>

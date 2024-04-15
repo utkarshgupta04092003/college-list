@@ -69,6 +69,9 @@ export const sortByReviewDesc = (filterData) => {
     return sortedData;
 }
 
-export const searchByName = (filterData, text) => {
-    return -1
+export const searchByName = (filterData, search) => {
+    const sortedData = filterData.filter((item) =>
+      item.collegeName.toLowerCase().includes(search.toLowerCase())
+    );
+    return sortedData;
 }
