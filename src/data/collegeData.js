@@ -532,7 +532,7 @@ export const collegeData = [
         cdRank: 7,
         collegeName: "VIT Vellore Institute of Technology",
         collegeImage: 'https://images.collegedunia.com/public/college_data/images/logos/1604923303Logo.jpg?h=28&w=28&mode=stretch',
-        isFeatured: false,
+        isFeatured: true,
         address: {
             city: "Vellore",
             state: "Tamil Nadu",

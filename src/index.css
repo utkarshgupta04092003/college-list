@@ -1,3 +1,42 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.ribbon1 {
+    position: absolute;
+    top: -6.1px;
+  }
+ 
+  .ribbon1 span {
+    position: relative;
+    display: block;
+    text-align: center;
+    background: #F8463F;
+    font-size: 12px;
+    color: white;
+    width: 90px;
+    border-bottom-right-radius: 50px ;
+    border-bottom-left-radius: 50px ;
+  }
+  .ribbon1 span:before, .ribbon1 span:after {
+    position: absolute;
+    content: "";
+  }
+  .ribbon1 span:before {
+    height: 6px;
+    width: 6px;
+    left: -5px;
+    top: 0;
+    background: #d42f2a;
+    border-top-left-radius: 100px;
+   }
+   .ribbon1 span:after {
+    height: 6px;
+    width: 6px;
+    left: 88px;
+    top: 0;
+    background: #c5342f;
+    border-top-right-radius: 100px;
+   }
+  

@@ -11,7 +11,11 @@ export default function CollegeData({ data }) {
             {/* id section */}
             <td className={`align-top border border-slate-300 min-w-[7vw] p-2`}>#{data?._id}</td>
             {/* college details section */}
-            <td className='align-top border border-slate-300 flex-col p-3 '>
+            <td className='align-top border border-slate-300 flex-col p-3 relative'>
+                {/* <span className='p-1 text-white bg-red-500 absolute '>Featured</span> */}
+                <div className={data?.isFeatured ? `ribbon` : 'hidden'}>
+                    <span className="ribbon1"><span>Featured</span></span>
+                </div>
                 <div className=" flex">
                     <div className=" mr-3">
                         <img src={data?.collegeImage} alt="college image" className='w-[35px] h-[35px] rounded-full' />
