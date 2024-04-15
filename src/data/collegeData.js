@@ -53,69 +53,88 @@ export const collegeData = [
             {
                 rank: 3,
                 totalRanking: 131,
-                rankingField: "India"
+                rankingField: "India",
+                year: 2022,
+                fieldImageUrl: "https://images.collegedunia.com/public/college_data/images/agencyLogo/the_week1569844170.png"
             },
             {
                 rank: 5,
                 totalRanking: 131,
-                rankingField: "NIRF"
+                rankingField: "NIRF",
+                year: 2021,
+                fieldImageUrl: "https://images.collegedunia.com/public/college_data/images/agencyLogo/india_today_1569843914.png"
             },
             {
                 rank: 7,
                 totalRanking: 98,
-                rankingField: "UGC"
+                rankingField: "UGC",
+                year: 2023,
+                fieldImageUrl: "https://images.collegedunia.com/public/college_data/images/agencyLogo/nirf1569843987.png"
             },
             {
                 rank: 12,
                 totalRanking: 245,
-                rankingField: "QS World University Rankings"
+                rankingField: "QS World University Rankings",
+                year: 2019,
+                fieldImageUrl: "https://images.collegedunia.com/public/college_data/images/agencyLogo/the_week1569844170.png"
             },
             {
                 rank: 20,
                 totalRanking: 175,
-                rankingField: "Times Higher Education World University Rankings"
+                rankingField: "Times Higher Education World University Rankings",
+                year: 2020,
+                fieldImageUrl: "https://images.collegedunia.com/public/college_data/images/agencyLogo/nirf1569843987.png"
             },
             {
                 rank: 5,
                 totalRanking: 87,
-                rankingField: "Webometrics"
+                rankingField: "Webometrics",
+                year: 2022,
+                fieldImageUrl: "https://images.collegedunia.com/public/college_data/images/agencyLogo/nirf1569843987.png"
             },
             {
                 rank: 9,
                 totalRanking: 203,
-                rankingField: "Scimago Institutions Rankings"
+                rankingField: "Scimago Institutions Rankings",
+                year: 2023,
+                fieldImageUrl: "https://images.collegedunia.com/public/college_data/images/agencyLogo/nirf1569843987.png"
             },
             {
                 rank: 15,
                 totalRanking: 144,
-                rankingField: "QS Asia University Rankings"
+                rankingField: "QS Asia University Rankings",
+                year: 2021,
+                fieldImageUrl: "https://images.collegedunia.com/public/college_data/images/agencyLogo/india_today_1569843914.png"
             },
             {
                 rank: 8,
                 totalRanking: 110,
-                rankingField: "THE Asia University Rankings"
+                rankingField: "THE Asia University Rankings",
+                year: 2020,
+                fieldImageUrl: "https://images.collegedunia.com/public/college_data/images/agencyLogo/nirf1569843987.png"
             },
             {
                 rank: 11,
                 totalRanking: 91,
-                rankingField: "ARWU World University Rankings"
+                rankingField: "ARWU World University Rankings",
+                year: 2022,
+                fieldImageUrl: "https://images.collegedunia.com/public/college_data/images/agencyLogo/nirf1569843987.png"
             },
             {
                 rank: 6,
                 totalRanking: 153,
-                rankingField: "CWTS Leiden Ranking"
+                rankingField: "CWTS Leiden Ranking",
+                year: 2023,
+                fieldImageUrl: "https://images.collegedunia.com/public/college_data/images/agencyLogo/the_week1569844170.png"
             }
-        ],
-        imageUrl: {
-            nirf: "https://images.collegedunia.com/public/college_data/images/agencyLogo/nirf1569843987.png?h=16&w=16&mode=stretch",
-            india_today: "https://images.collegedunia.com/public/college_data/images/agencyLogo/india_today_1569843914.png?h=16&w=16&mode=stretch",
-            aicte: "https://images.collegedunia.com/public/college_data/images/agencyLogo/the_week1569844170.png?h=16&w=16&mode=stretch"
-        }
+        ]
+           
     },
     {
         _id: 2,
         cdRank: 2,
         collegeName: "IIT Bombay",
+        collegeImage: 'https://images.collegedunia.com/public/college_data/images/logos/1431953162ccgsygdygw.jpg?h=28&w=28&mode=stretch',
         isFeatured: true,
         address: {
             city: "Mumbai",
@@ -159,35 +178,48 @@ export const collegeData = [
             {
                 rank: 2,
                 totalRanking: 130,
-                rankingField: "India"
+                rankingField: "India",
+                year: 2020,
+                fieldImageUrl: "https://images.collegedunia.com/public/college_data/images/agencyLogo/nirf1569843987.png"
             },
             {
                 rank: 4,
                 totalRanking: 130,
-                rankingField: "NIRF"
+                rankingField: "NIRF",
+                year: 2023,
+                fieldImageUrl: "https://images.collegedunia.com/public/college_data/images/agencyLogo/india_today_1569843914.png"
             },
             {
                 rank: 6,
                 totalRanking: 97,
-                rankingField: "UGC"
+                rankingField: "UGC",
+                year: 2019,
+                fieldImageUrl: "https://images.collegedunia.com/public/college_data/images/agencyLogo/the_week1569844170.png"
             },
             {
                 rank: 10,
                 totalRanking: 250,
-                rankingField: "QS World University Rankings"
+                rankingField: "QS World University Rankings",
+                year: 2021,
+                fieldImageUrl: "https://images.collegedunia.com/public/college_data/images/agencyLogo/nirf1569843987.png"
             },
             {
                 rank: 18,
                 totalRanking: 170,
-                rankingField: "Times Higher Education World University Rankings"
+                rankingField: "Times Higher Education World University Rankings",
+                year: 2022,
+                fieldImageUrl: "https://images.collegedunia.com/public/college_data/images/agencyLogo/india_today_1569843914.png"
             }
-        ],
+        ]
+        
+        
 
     },
     {
         _id: 3,
         cdRank: 3,
         collegeName: "IIT Delhi",
+        collegeImage: 'https://images.collegedunia.com/public/college_data/images/logos/col27802.gif?h=28&w=28&mode=stretch',
         isFeatured: false,
         address: {
             city: "Delhi",
@@ -231,35 +263,45 @@ export const collegeData = [
             {
                 rank: 4,
                 totalRanking: 132,
-                rankingField: "India"
+                rankingField: "India",
+                year: 2021,
+                fieldImageUrl: "https://images.collegedunia.com/public/college_data/images/agencyLogo/the_week1569844170.png"
             },
             {
                 rank: 6,
                 totalRanking: 132,
-                rankingField: "NIRF"
+                rankingField: "NIRF",
+                year: 2020,
+                fieldImageUrl: "https://images.collegedunia.com/public/college_data/images/agencyLogo/nirf1569843987.png"
             },
             {
                 rank: 8,
                 totalRanking: 95,
-                rankingField: "UGC"
+                rankingField: "UGC",
+                year: 2023,
+                fieldImageUrl: "https://images.collegedunia.com/public/college_data/images/agencyLogo/india_today_1569843914.png"
             },
             {
                 rank: 11,
                 totalRanking: 255,
-                rankingField: "QS World University Rankings"
+                rankingField: "QS World University Rankings",
+                year: 2019,
+                fieldImageUrl: "https://images.collegedunia.com/public/college_data/images/agencyLogo/the_week1569844170.png"
             },
             {
                 rank: 21,
                 totalRanking: 165,
-                rankingField: "Times Higher Education World University Rankings"
+                rankingField: "Times Higher Education World University Rankings",
+                year: 2022,
+                fieldImageUrl: "https://images.collegedunia.com/public/college_data/images/agencyLogo/india_today_1569843914.png"
             }
-        ],
-
+        ] 
     },
     {
         _id: 4,
         cdRank: 4,
         collegeName: "NIT Trichy - National Institute of Technology",
+        collegeImage: 'https://images.collegedunia.com/public/college_data/images/logos/1593757072download.png?h=28&w=28&mode=stretch',
         isFeatured: true,
         address: {
             city: "Tiruchirappalli",
@@ -303,30 +345,38 @@ export const collegeData = [
             {
                 rank: 7,
                 totalRanking: 150,
-                rankingField: "NIRF"
+                rankingField: "NIRF",
+                year: 2022,
+                fieldImageUrl: "https://images.collegedunia.com/public/college_data/images/agencyLogo/nirf1569843987.png"
             },
             {
                 rank: 9,
                 totalRanking: 125,
-                rankingField: "India"
+                rankingField: "India",
+                year: 2020,
+                fieldImageUrl: "https://images.collegedunia.com/public/college_data/images/agencyLogo/the_week1569844170.png"
             },
             {
                 rank: 15,
                 totalRanking: 90,
-                rankingField: "QS World University Rankings"
+                rankingField: "QS World University Rankings",
+                year: 2021,
+                fieldImageUrl: "https://images.collegedunia.com/public/college_data/images/agencyLogo/india_today_1569843914.png"
             },
             {
                 rank: 25,
                 totalRanking: 190,
-                rankingField: "Times Higher Education World University Rankings"
+                rankingField: "Times Higher Education World University Rankings",
+                year: 2019,
+                fieldImageUrl: "https://images.collegedunia.com/public/college_data/images/agencyLogo/the_week1569844170.png"
             }
-        ],
-
+        ]       
     },
     {
         _id: 5,
         cdRank: 5,
         collegeName: "NIT Warangal - National Institute of Technology",
+        collegeImage: 'https://images.collegedunia.com/public/college_data/images/logos/1681130593Screenshot20230410180621.jpg?h=28&w=28&mode=stretch',
         isFeatured: false,
         address: {
             city: "Warangal",
@@ -370,30 +420,41 @@ export const collegeData = [
             {
                 rank: 8,
                 totalRanking: 160,
-                rankingField: "NIRF"
+                rankingField: "NIRF",
+                year: 2019,
+                fieldImageUrl: "https://images.collegedunia.com/public/college_data/images/agencyLogo/the_week1569844170.png"
             },
             {
                 rank: 12,
                 totalRanking: 130,
-                rankingField: "India"
+                rankingField: "India",
+                year: 2022,
+                fieldImageUrl: "https://images.collegedunia.com/public/college_data/images/agencyLogo/nirf1569843987.png"
             },
             {
                 rank: 17,
                 totalRanking: 95,
-                rankingField: "QS World University Rankings"
+                rankingField: "QS World University Rankings",
+                year: 2021,
+                fieldImageUrl: "https://images.collegedunia.com/public/college_data/images/agencyLogo/the_week1569844170.png"
             },
             {
                 rank: 22,
                 totalRanking: 180,
-                rankingField: "Times Higher Education World University Rankings"
+                rankingField: "Times Higher Education World University Rankings",
+                year: 2020,
+                fieldImageUrl: "https://images.collegedunia.com/public/college_data/images/agencyLogo/india_today_1569843914.png"
             }
-        ],
+        ]
+        
+        
 
     },
     {
         _id: 6,
         cdRank: 6,
         collegeName: "Parul University",
+        collegeImage: 'https://images.collegedunia.com/public/college_data/images/logos/1705923383ParulUniversity11.png?h=28&w=28&mode=stretch',
         isFeatured: false,
         address: {
             city: "Vadodara",
@@ -437,30 +498,40 @@ export const collegeData = [
             {
                 rank: 20,
                 totalRanking: 180,
-                rankingField: "NIRF"
+                rankingField: "NIRF",
+                year: 2023,
+                fieldImageUrl: "https://images.collegedunia.com/public/college_data/images/agencyLogo/nirf1569843987.png"
             },
             {
                 rank: 30,
                 totalRanking: 140,
-                rankingField: "India"
+                rankingField: "India",
+                year: 2019,
+                fieldImageUrl: "https://images.collegedunia.com/public/college_data/images/agencyLogo/india_today_1569843914.png"
             },
             {
                 rank: 40,
                 totalRanking: 110,
-                rankingField: "QS World University Rankings"
+                rankingField: "QS World University Rankings",
+                year: 2020,
+                fieldImageUrl: "https://images.collegedunia.com/public/college_data/images/agencyLogo/the_week1569844170.png"
             },
             {
                 rank: 50,
                 totalRanking: 200,
-                rankingField: "Times Higher Education World University Rankings"
+                rankingField: "Times Higher Education World University Rankings",
+                year: 2022,
+                fieldImageUrl: "https://images.collegedunia.com/public/college_data/images/agencyLogo/nirf1569843987.png"
             }
-        ],
+        ]
+        
 
     },
     {
         _id: 7,
         cdRank: 7,
         collegeName: "VIT Vellore Institute of Technology",
+        collegeImage: 'https://images.collegedunia.com/public/college_data/images/logos/1604923303Logo.jpg?h=28&w=28&mode=stretch',
         isFeatured: false,
         address: {
             city: "Vellore",
@@ -504,33 +575,39 @@ export const collegeData = [
             {
                 rank: 10,
                 totalRanking: 160,
-                rankingField: "NIRF"
+                rankingField: "NIRF",
+                year: 2021,
+                fieldImageUrl: "https://images.collegedunia.com/public/college_data/images/agencyLogo/the_week1569844170.png"
             },
             {
                 rank: 15,
                 totalRanking: 120,
-                rankingField: "India"
+                rankingField: "India",
+                year: 2019,
+                fieldImageUrl: "https://images.collegedunia.com/public/college_data/images/agencyLogo/nirf1569843987.png"
             },
             {
                 rank: 25,
                 totalRanking: 105,
-                rankingField: "QS World University Rankings"
+                rankingField: "QS World University Rankings",
+                year: 2022,
+                fieldImageUrl: "https://images.collegedunia.com/public/college_data/images/agencyLogo/india_today_1569843914.png"
             },
             {
                 rank: 35,
                 totalRanking: 190,
-                rankingField: "Times Higher Education World University Rankings"
+                rankingField: "Times Higher Education World University Rankings",
+                year: 2020,
+                fieldImageUrl: "https://images.collegedunia.com/public/college_data/images/agencyLogo/nirf1569843987.png"
             }
-        ],
-        imageUrl: {
-            nirf: "https://example.com/nirf_logo.png",
-            aicte: "https://example.com/aicte_logo.png"
-        }
+        ]
+           
     },
     {
         _id: 8,
         cdRank: 8,
         collegeName: "MIT World Peace University - [MIT-WPU], Pune",
+        collegeImage: 'https://admissions.mitwpu.edu.in/frontend/assets/images/logo.svg',
         isFeatured: false,
         address: {
             city: "Pune",
@@ -574,30 +651,40 @@ export const collegeData = [
             {
                 rank: 12,
                 totalRanking: 145,
-                rankingField: "NIRF"
+                rankingField: "NIRF",
+                year: 2022,
+                fieldImageUrl: "https://images.collegedunia.com/public/college_data/images/agencyLogo/india_today_1569843914.png"
             },
             {
                 rank: 18,
                 totalRanking: 110,
-                rankingField: "India"
+                rankingField: "India",
+                year: 2021,
+                fieldImageUrl: "https://images.collegedunia.com/public/college_data/images/agencyLogo/nirf1569843987.png"
             },
             {
                 rank: 30,
                 totalRanking: 95,
-                rankingField: "QS World University Rankings"
+                rankingField: "QS World University Rankings",
+                year: 2019,
+                fieldImageUrl: "https://images.collegedunia.com/public/college_data/images/agencyLogo/india_today_1569843914.png"
             },
             {
                 rank: 40,
                 totalRanking: 180,
-                rankingField: "Times Higher Education World University Rankings"
+                rankingField: "Times Higher Education World University Rankings",
+                year: 2020,
+                fieldImageUrl: "https://images.collegedunia.com/public/college_data/images/agencyLogo/the_week1569844170.png"
             }
-        ],
+        ]
+        
 
     },
     {
         _id: 9,
         cdRank: 9,
         collegeName: "IIT Kharagpur",
+        collegeImage: 'https://images.collegedunia.com/public/college_data/images/logos/1489041138e2.jpg?h=43&w=43&mode=stretch',
         isFeatured: false,
         address: {
             city: "Kharagpur",
@@ -641,35 +728,48 @@ export const collegeData = [
             {
                 rank: 3,
                 totalRanking: 135,
-                rankingField: "India"
+                rankingField: "India",
+                year: 2023,
+                fieldImageUrl: "https://images.collegedunia.com/public/college_data/images/agencyLogo/india_today_1569843914.png"
             },
             {
                 rank: 5,
                 totalRanking: 135,
-                rankingField: "NIRF"
+                rankingField: "NIRF",
+                year: 2019,
+                fieldImageUrl: "https://images.collegedunia.com/public/college_data/images/agencyLogo/the_week1569844170.png"
             },
             {
                 rank: 7,
                 totalRanking: 100,
-                rankingField: "UGC"
+                rankingField: "UGC",
+                year: 2021,
+                fieldImageUrl: "https://images.collegedunia.com/public/college_data/images/agencyLogo/nirf1569843987.png"
             },
             {
                 rank: 9,
                 totalRanking: 260,
-                rankingField: "QS World University Rankings"
+                rankingField: "QS World University Rankings",
+                year: 2020,
+                fieldImageUrl: "https://images.collegedunia.com/public/college_data/images/agencyLogo/the_week1569844170.png"
             },
             {
                 rank: 19,
                 totalRanking: 175,
-                rankingField: "Times Higher Education World University Rankings"
+                rankingField: "Times Higher Education World University Rankings",
+                year: 2022,
+                fieldImageUrl: "https://images.collegedunia.com/public/college_data/images/agencyLogo/nirf1569843987.png"
             }
-        ],
+        ]
+        
+        
 
     },
     {
         _id: 10,
         cdRank: 10,
         collegeName: "IIT Kanpur",
+        collegeImage: 'https://images.collegedunia.com/public/college_data/images/logos/1408554560logo.png?h=43&w=43&mode=stretch',
         isFeatured: false,
         address: {
             city: "Kanpur",
@@ -713,30 +813,40 @@ export const collegeData = [
             {
                 rank: 4,
                 totalRanking: 140,
-                rankingField: "India"
+                rankingField: "India",
+                year: 2020,
+                fieldImageUrl: "https://images.collegedunia.com/public/college_data/images/agencyLogo/nirf1569843987.png"
             },
             {
                 rank: 6,
                 totalRanking: 140,
-                rankingField: "NIRF"
+                rankingField: "NIRF",
+                year: 2019,
+                fieldImageUrl: "https://images.collegedunia.com/public/college_data/images/agencyLogo/the_week1569844170.png"
             },
             {
                 rank: 8,
                 totalRanking: 105,
-                rankingField: "UGC"
+                rankingField: "UGC",
+                year: 2023,
+                fieldImageUrl: "https://images.collegedunia.com/public/college_data/images/agencyLogo/india_today_1569843914.png"
             },
             {
                 rank: 10,
                 totalRanking: 265,
-                rankingField: "QS World University Rankings"
+                rankingField: "QS World University Rankings",
+                year: 2021,
+                fieldImageUrl: "https://images.collegedunia.com/public/college_data/images/agencyLogo/the_week1569844170.png"
             },
             {
                 rank: 20,
                 totalRanking: 180,
-                rankingField: "Times Higher Education World University Rankings"
+                rankingField: "Times Higher Education World University Rankings",
+                year: 2022,
+                fieldImageUrl: "https://images.collegedunia.com/public/college_data/images/agencyLogo/nirf1569843987.png"
             }
-        ],
-
+        ]
+               
     }
 ]
 
