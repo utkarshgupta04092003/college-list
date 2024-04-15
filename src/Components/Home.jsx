@@ -1,11 +1,11 @@
 import React from 'react'
 import CollegeData from './CollegeData'
-import { collegeData } from '../data/collegeData'
+// import { collegeData } from '../data/collegeData'
 
-export default function Home() {
+export default function Home({collegeData}) {
     return (
         <div>
-            <table className=' border border-collapse w-full p-2'>
+            <table className=' border border-collapse m-5 p-2'>
                 {/* <caption class="caption-top">
                     Table 3.1: Professional wrestlers and their signature moves.
                 </caption> */}

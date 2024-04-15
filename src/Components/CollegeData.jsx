@@ -3,16 +3,17 @@ import { Link } from 'react-router-dom';
 import { imageUrl } from '../data/collegeData';
 
 export default function CollegeData({ data }) {
-    console.log(data?.isFeatured, data._id)
     return (
 
 
         <tr className={data?.isFeatured ? 'bg-[#fff2ea]' : ''}>
+
             {/* id section */}
             <td className={`align-top border border-slate-300 min-w-[7vw] p-2`}>#{data?._id}</td>
+
             {/* college details section */}
             <td className='align-top border border-slate-300 flex-col p-3 relative'>
-                {/* <span className='p-1 text-white bg-red-500 absolute '>Featured</span> */}
+
                 <div className={data?.isFeatured ? `ribbon` : 'hidden'}>
                     <span className="ribbon1"><span>Featured</span></span>
                 </div>
@@ -22,13 +23,13 @@ export default function CollegeData({ data }) {
                     </div>
                     <div className='text-xs'>
                         <div className="text-lg font-semibold text-sky-500">{data?.collegeName}, {data?.address.city}</div>
-                        <div className="">{data?.address.city}, {data?.address.state} |
+                        <div>{data?.address.city}, {data?.address.state} |
                             <span className='ml-2'>
 
                                 {data?.approval.length != 0 && (data?.approval.join(", "))} Approved
                             </span>
                         </div>
-                        <div className='inline-block border-l rounded-r-full border-l-orange-400 px-3 my-2 bg-yellow-50'>
+                        <div className={ data?.isFeatured ? 'hidden': `inline-block border-l rounded-r-full border-l-orange-400 px-3 my-2 bg-yellow-50`}>
                             <div className='text-orange-400 font-semibold'>{data?.course[0].courseName}</div>
                             <span>JEE Advanced 2023 Cutoff: {data?.course[0].jeeCutOff}</span>
                         </div>
@@ -59,6 +60,7 @@ export default function CollegeData({ data }) {
                     <span>Compare Fees</span>
                 </div>
             </td>
+
             {/* placement section */}
             <td className='align-top border border-slate-300 pl-2 min-w-[12vw]'>
                 <div className='text-textimp font-semibold'>₹ {data?.placement.averagePackage}</div>
@@ -70,6 +72,7 @@ export default function CollegeData({ data }) {
                     <span>Compare Placement</span>
                 </div>
             </td>
+            
             {/* user review section */}
             <td className='align-top border border-slate-300 pl-2'>
                 <div className='flex items-center'>
