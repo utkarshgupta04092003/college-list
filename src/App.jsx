@@ -13,10 +13,23 @@ export default function App() {
   const [sortOrder, setSortOrder] = useState('asc');
   const [searchTerm, setSearchTerm] = useState('');
 
+  const fetchData = () =>{
+    setfilterData((prev)=>(prev.concat(collegeData)));
+  }
+  const handleScroll = () => {
+    if (window.innerHeight + document.documentElement.scrollTop !== document.documentElement.offsetHeight) {
+      return;
+    }
+    console.log('function fetched called');
+    fetchData();
+  };
 
 
   useEffect(() => {
     setfilterData(collegeData);
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
 
@@ -27,29 +40,29 @@ export default function App() {
       console.log("rating", "ase");
       const sortedData = sortByRatingAsc(filterData);
       setfilterData(sortedData);
-   
+
     }
     else if (sortBy === "rating" && sortOrder === "desc") {
       console.log("rating", "desc");
       const sortedData = sortByRatingDesc(filterData);
       setfilterData(sortedData);
     }
-    else if(sortBy === 'fees' && sortOrder === 'asc'){
+    else if (sortBy === 'fees' && sortOrder === 'asc') {
       console.log("fees asc");
       const sortedData = sortByFeesAsc(filterData);
       setfilterData(sortedData);
     }
-    else if(sortBy == 'fees' && sortOrder=='desc'){
+    else if (sortBy == 'fees' && sortOrder == 'desc') {
       console.log('fees desc');
       const sortedData = sortByFeesDesc(filterData);
       setfilterData(sortedData);
     }
-    else if(sortBy == 'userReview' && sortOrder == 'asc'){
+    else if (sortBy == 'userReview' && sortOrder == 'asc') {
       console.log('user review asc');
       const sortedData = sortByReviewAsc(filterData);
       setfilterData(sortedData);
     }
-    else if(sortBy == 'userReview' && sortOrder == 'desc'){
+    else if (sortBy == 'userReview' && sortOrder == 'desc') {
       console.log('user review desc');
       const sortedData = sortByReviewDesc(filterData);
       setfilterData(sortedData);
@@ -83,7 +96,7 @@ export default function App() {
 
   return (
     <BrowserRouter>
-      <Filters onFilterChange={handleFilterChange} handleInputChange={handleInputChange}/>
+      <Filters onFilterChange={handleFilterChange} handleInputChange={handleInputChange} />
 
       <Home collegeData={filterData} />
     </BrowserRouter>

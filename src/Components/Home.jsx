@@ -20,7 +20,7 @@ export default function Home({collegeData}) {
 
                 <tbody className=''>
                     {collegeData?.map((college, index)=>(
-                        <CollegeData data={college} key={college?._id} />
+                        <CollegeData data={college} key={index} />
 
                     ))}
 
